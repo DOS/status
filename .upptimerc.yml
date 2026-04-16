@@ -1,36 +1,78 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: DOS
+repo: status
+user-agent: DOS
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: DOS.AI Platform
+    url: https://app.dos.ai
+    icon: https://dos.ai/icon.svg
+    maxResponseTime: 5000
+
+  - name: DOS.AI Landing
+    url: https://dos.ai
+    icon: https://dos.ai/icon.svg
+
+  - name: DOS.AI API
+    url: https://api.dos.ai/health
+    icon: https://dos.ai/icon.svg
+    maxResponseTime: 3000
+
+  - name: DOS.Me Identity
+    url: https://id.dos.me
+    icon: https://dos.me/favicon.ico
+
+  - name: DOS.Me API
+    url: https://api.dos.me/health
+    icon: https://dos.me/favicon.ico
+    maxResponseTime: 3000
+
+  - name: DOSafe
+    url: https://dosafe.io
+    icon: https://dosafe.io/favicon.ico
+
+  - name: DOScan Explorer
+    url: https://doscan.io
+    icon: https://doscan.io/favicon.ico
+
+  - name: Inference Engine
+    url: https://inference.dos.ai/health
+    icon: https://dos.ai/icon.svg
+    maxResponseTime: 5000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.dos.ai
+  logoUrl: https://dos.ai/icon.svg
+  name: DOS Status
+  theme: dark
+  introTitle: "**DOS** Service Status"
+  introMessage: "Real-time uptime monitoring for all DOS ecosystem services. Powered by [Upptime](https://github.com/upptime/upptime)."
   navbar:
     - title: Status
       href: /
+    - title: DOS.AI
+      href: https://dos.ai
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: "Active Incidents"
+  allSystemsOperational: "All Systems Operational"
+  incidentReport: "Incident Report for"
+  responseTime: "Response Time"
+  uptime: "Uptime"
+  liveStatus: "Live Status"
+
+commitMessages:
+  readmeContent: ":pencil: Update summary [skip ci]"
+  summaryJson: ":card_file_box: Update status summary [skip ci]"
+  statusChange: "$EMOJI $SITE_NAME is $STATUS"
+  graphsUpdate: ":bento: Update graphs [skip ci]"
+  commitAuthorName: "DOS Status Bot"
+  commitAuthorEmail: "status@dos.ai"
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
