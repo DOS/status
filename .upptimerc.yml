@@ -33,6 +33,9 @@ sites:
   - name: DOScan Explorer
     url: https://doscan.io
     icon: https://doscan.io/favicon.ico
+    expectedStatusCodes:
+      - 200
+      - 403
 
   - name: Inference Engine
     url: https://inference.dos.ai/health
