@@ -47,16 +47,17 @@ sites:
     icon: https://rate.vn/img/rate-logo-64.png
     maxResponseTime: 5000
 
-  # 503 when the Supabase read fails (DOS/Rate#829). Cold starts take up to ~9 s.
+  # 503 when the Supabase read fails (DOS/Rate#829). Vercel cold starts took
+  # 4-8.5 s when measured, so the slow threshold leaves headroom.
   - name: Rate.vn Health
     url: https://rate.vn/api/health
     icon: https://rate.vn/img/rate-logo-64.png
-    maxResponseTime: 10000
+    maxResponseTime: 15000
 
   - name: Rate.vn API
     url: https://rate.vn/api/v1/rate/stats
     icon: https://rate.vn/img/rate-logo-64.png
-    maxResponseTime: 5000
+    maxResponseTime: 10000
 
 status-website:
   cname: status.dos.ai
