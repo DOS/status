@@ -42,6 +42,22 @@ sites:
     icon: https://dos.ai/icon.svg
     maxResponseTime: 5000
 
+  - name: Rate.vn
+    url: https://rate.vn
+    icon: https://rate.vn/img/rate-logo-64.png
+    maxResponseTime: 5000
+
+  # 503 when the Supabase read fails (DOS/Rate#829). Cold starts take up to ~9 s.
+  - name: Rate.vn Health
+    url: https://rate.vn/api/health
+    icon: https://rate.vn/img/rate-logo-64.png
+    maxResponseTime: 10000
+
+  - name: Rate.vn API
+    url: https://rate.vn/api/v1/rate/stats
+    icon: https://rate.vn/img/rate-logo-64.png
+    maxResponseTime: 5000
+
 status-website:
   cname: status.dos.ai
   logoUrl: https://dos.ai/icon.svg
