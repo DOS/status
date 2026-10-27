@@ -136,8 +136,8 @@
     "status": "down",
     "uptime": "98.66%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "64.11%",
-    "uptimeMonth": "91.74%",
+    "uptimeWeek": "64.07%",
+    "uptimeMonth": "91.73%",
     "uptimeYear": "98.66%",
     "time": 0,
     "timeDay": 0,
@@ -147,7 +147,7 @@
     "dailyMinutesDown": {
       "2026-04-22": 66,
       "2026-04-24": 59,
-      "2026-10-27": 7,
+      "2026-10-27": 11,
       "2026-10-26": 1440,
       "2026-10-25": 1440,
       "2026-10-24": 731
@@ -177,18 +177,18 @@
     "icon": "https://rate.vn/img/rate-logo-64.png",
     "slug": "rate-vn-health",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.87%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.87%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.87%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-27": 0
+      "2026-10-27": 5
     }
   },
   {
