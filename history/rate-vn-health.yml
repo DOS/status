@@ -1,7 +1,7 @@
 url: https://rate.vn/api/health
-status: down
-code: 503
-responseTime: 3555
-lastUpdated: 2026-11-04T04:28:35.912Z
+status: up
+code: 200
+responseTime: 600
+lastUpdated: 2026-11-04T04:36:21.869Z
 startTime: 2026-10-24T11:49:16.173Z
 generator: Upptime <https://github.com/upptime/upptime>
