@@ -1,7 +1,7 @@
 url: https://rate.vn
-status: up
-code: 200
-responseTime: 802
-lastUpdated: 2026-11-18T23:02:00.541Z
+status: down
+code: 503
+responseTime: 273
+lastUpdated: 2026-11-19T07:15:40.309Z
 startTime: 2026-10-24T11:49:15.465Z
 generator: Upptime <https://github.com/upptime/upptime>
