@@ -4,19 +4,19 @@
     "url": "https://app.dos.ai",
     "icon": "https://dos.ai/icon.svg",
     "slug": "dos-ai-platform",
-    "status": "down",
-    "uptime": "99.95%",
-    "uptimeDay": "88.90%",
-    "uptimeWeek": "98.41%",
-    "uptimeMonth": "99.63%",
-    "uptimeYear": "99.95%",
+    "status": "up",
+    "uptime": "99.94%",
+    "uptimeDay": "87.16%",
+    "uptimeWeek": "98.17%",
+    "uptimeMonth": "99.58%",
+    "uptimeYear": "99.94%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-11-19": 160
+      "2026-11-19": 185
     }
   },
   {
@@ -100,19 +100,19 @@
     "url": "https://dosafe.io",
     "icon": "https://dosafe.io/favicon.ico",
     "slug": "do-safe",
-    "status": "down",
-    "uptime": "99.95%",
-    "uptimeDay": "88.94%",
-    "uptimeWeek": "98.42%",
-    "uptimeMonth": "99.64%",
-    "uptimeYear": "99.95%",
+    "status": "up",
+    "uptime": "99.94%",
+    "uptimeDay": "87.21%",
+    "uptimeWeek": "98.17%",
+    "uptimeMonth": "99.58%",
+    "uptimeYear": "99.94%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-11-19": 159
+      "2026-11-19": 184
     }
   },
   {
@@ -142,11 +142,11 @@
     "icon": "https://dos.ai/icon.svg",
     "slug": "inference-engine",
     "status": "down",
-    "uptime": "88.02%",
+    "uptime": "88.01%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "14.79%",
-    "uptimeYear": "88.02%",
+    "uptimeMonth": "14.73%",
+    "uptimeYear": "88.01%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -155,7 +155,7 @@
     "dailyMinutesDown": {
       "2026-04-22": 66,
       "2026-04-24": 59,
-      "2026-11-19": 594,
+      "2026-11-19": 620,
       "2026-11-18": 1440,
       "2026-11-17": 1440,
       "2026-11-16": 1440,
@@ -189,19 +189,19 @@
     "url": "https://rate.vn",
     "icon": "https://rate.vn/img/rate-logo-64.png",
     "slug": "rate-vn",
-    "status": "down",
-    "uptime": "99.57%",
-    "uptimeDay": "88.97%",
-    "uptimeWeek": "98.42%",
-    "uptimeMonth": "99.57%",
-    "uptimeYear": "99.57%",
+    "status": "up",
+    "uptime": "99.51%",
+    "uptimeDay": "87.22%",
+    "uptimeWeek": "98.17%",
+    "uptimeMonth": "99.51%",
+    "uptimeYear": "99.51%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-11-19": 159
+      "2026-11-19": 184
     }
   },
   {
@@ -209,12 +209,12 @@
     "url": "https://rate.vn/api/health",
     "icon": "https://rate.vn/img/rate-logo-64.png",
     "slug": "rate-vn-health",
-    "status": "down",
-    "uptime": "97.00%",
-    "uptimeDay": "88.99%",
-    "uptimeWeek": "98.43%",
-    "uptimeMonth": "97.00%",
-    "uptimeYear": "97.00%",
+    "status": "up",
+    "uptime": "96.94%",
+    "uptimeDay": "87.23%",
+    "uptimeWeek": "98.18%",
+    "uptimeMonth": "96.94%",
+    "uptimeYear": "96.94%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -224,7 +224,7 @@
       "2026-10-27": 49,
       "2026-11-04": 324,
       "2026-11-05": 587,
-      "2026-11-19": 159
+      "2026-11-19": 184
     }
   },
   {
@@ -232,19 +232,19 @@
     "url": "https://rate.vn/api/v1/rate/stats",
     "icon": "https://rate.vn/img/rate-logo-64.png",
     "slug": "rate-vn-api",
-    "status": "down",
-    "uptime": "99.58%",
-    "uptimeDay": "89.01%",
-    "uptimeWeek": "98.43%",
-    "uptimeMonth": "99.58%",
-    "uptimeYear": "99.58%",
+    "status": "up",
+    "uptime": "99.51%",
+    "uptimeDay": "87.25%",
+    "uptimeWeek": "98.18%",
+    "uptimeMonth": "99.51%",
+    "uptimeYear": "99.51%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-11-19": 158
+      "2026-11-19": 184
     }
   }
 ]
