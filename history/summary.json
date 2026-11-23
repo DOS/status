@@ -82,11 +82,11 @@
     "url": "https://api.dos.me/health",
     "icon": "https://dos.me/favicon.ico",
     "slug": "dos-me-api",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 0,
     "timeDay": 0,
@@ -94,7 +94,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-11-23": 1
+      "2026-11-23": 6
     }
   },
   {
@@ -147,7 +147,7 @@
     "uptime": "86.56%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "2.75%",
+    "uptimeMonth": "2.73%",
     "uptimeYear": "86.56%",
     "time": 0,
     "timeDay": 0,
@@ -157,7 +157,7 @@
     "dailyMinutesDown": {
       "2026-04-22": 66,
       "2026-04-24": 59,
-      "2026-11-23": 111,
+      "2026-11-23": 117,
       "2026-11-22": 1440,
       "2026-11-21": 1440,
       "2026-11-20": 1440,
@@ -215,12 +215,12 @@
     "url": "https://rate.vn/api/health",
     "icon": "https://rate.vn/img/rate-logo-64.png",
     "slug": "rate-vn-health",
-    "status": "down",
-    "uptime": "97.32%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "98.17%",
-    "uptimeMonth": "97.32%",
-    "uptimeYear": "97.32%",
+    "status": "up",
+    "uptime": "97.30%",
+    "uptimeDay": "99.58%",
+    "uptimeWeek": "98.12%",
+    "uptimeMonth": "97.30%",
+    "uptimeYear": "97.30%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -231,7 +231,7 @@
       "2026-11-04": 324,
       "2026-11-05": 587,
       "2026-11-19": 184,
-      "2026-11-23": 0
+      "2026-11-23": 6
     }
   },
   {
